@@ -1,98 +1,76 @@
-🏨 Hotel Booking System in Java (Console + GUI)
-A simple yet functional Hotel Room Booking Management System developed in Java using both Console (CLI) and Swing GUI. The project demonstrates core Object-Oriented Programming (OOP) principles like encapsulation, abstraction, and modular design, and incorporates file persistence using CSV and TXT formats.
+# 🏨 Hotel Management System - Java (Console + GUI)
 
-📌 Features
-✅ Common (Both Console & GUI):
-Room types: Single, Double, Deluxe, Suite
+This project is a **Hotel Management System** developed in **Java**, featuring both a **Console-based** version and a fully functional **GUI version using Swing**.
 
-Room availability tracking
+It allows hotel administrators to:
+- Manage room bookings
+- View room availability
+- Cancel bookings
+- Save & load bookings from files
+- View all bookings in a formatted way
+- Reset room availability
 
-Booking creation and room price calculation
+---
 
-File-based persistence: Bookings saved to bookings.csv
+## 🔧 Features
 
-View all current bookings
+### ✅ Console Version
+- Book a room by entering customer name, room number, and nights
+- Show available rooms with price and type
+- Cancel an existing booking
+- View all current bookings
+- Reset all room availability
+- Simple command-line based interaction
+- Ideal for terminal-based systems
 
-Cancel an existing booking
+### 🖥️ GUI Version (Java Swing)
+- Beautifully designed Java Swing interface
+- Horizontal layout buttons for better UX
+- Dynamic room booking form
+- Booking cancellation form
+- View all bookings in a scrollable window
+- Show room status with availability
+- Persistent storage of bookings via `bookings.csv`
+- Automatic file loading and saving
+- Real-time updates to room availability and booking data
 
-Reset all rooms to "Available"
+---
 
-🖥️ Console Version
-The console version provides a text-based interface with a menu-driven system:
+## 📁 Project Structure
+HotelManagementSystem/
+│
+├── Booking.java # Booking class (customer name, room, nights, total)
+├── Room.java # Room class (room number, type, price, availability)
+├── HotelConsole.java # Console version of the system
+├── HotelGUI.java # GUI version (main application)
+├── bookings.csv # Saved bookings data (auto-generated)
+├── README.md # You're reading it!
 
-Create a new booking
 
-View available rooms
+---
 
-View all bookings
+## 💡 Technologies Used
 
-Cancel a booking
+- Java (JDK 17+)
+- Java Swing (GUI)
+- File I/O (CSV for persistence)
+- IntelliJ IDEA / VS Code / Any Java IDE
+- OOP principles
 
-Save & load bookings to/from file
+---
 
-Exit application
+## 🚀 Getting Started
 
-🖱️ GUI Version (Swing)
-Built using Java Swing for an interactive experience:
+### 🛠 Requirements
+- Java installed (`java -version`)
+- Any Java IDE or terminal
 
-Horizontal button layout with modern UI styling
+### ▶️ Run the GUI Version
+```bash
+Run HotelGUI.java in your IDE
 
-Dynamic forms to enter booking data
+▶️ Run the Console Version
 
-Scrollable views for displaying rooms and bookings
+Run main.java in your IDE or terminal
 
-Auto-generated receipts (receipt_<name>_<room>.txt) after booking
 
-Validation for user inputs
-
-File-based persistence using bookings.csv
-
-📂 File Structure
-cpp
-Copy
-Edit
-HotelBookingSystem/
-├── HotelGUI.java       // GUI-based version using Swing
-├── HotelConsole.java   // Console-based version
-├── Booking.java        // Booking model (name, room, nights, total)
-├── Room.java           // Room model (number, type, price, availability)
-├── bookings.csv        // Stores booking data (persistent)
-├── receipt_<name>.txt  // Generated per booking
-🛠️ Technologies Used
-Java 17+
-
-Java Swing (GUI)
-
-OOP Concepts (Encapsulation, Classes, Methods)
-
-File Handling (CSV, TXT)
-
-Exception Handling
-
-🚀 How to Run
-Console Version
-bash
-Copy
-Edit
-javac HotelConsole.java
-java HotelConsole
-GUI Version
-bash
-Copy
-Edit
-javac HotelGUI.java
-java HotelGUI
-Note: Make sure Room.java and Booking.java are in the same directory.
-
-🎯 Future Enhancements (Ideas)
-Login system (Admin vs Guest)
-
-Date-based booking (check-in/check-out)
-
-Add payment simulation (dummy payment gateway)
-
-Database integration (MySQL/SQLite)
-
-Sort/filter bookings
-
-Dark mode for GUI
