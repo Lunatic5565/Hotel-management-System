@@ -1,6 +1,7 @@
 # 🏨 Hotel Management System - Java (Console + GUI)
 
-This project is a **Hotel Management System** developed in **Java**, featuring both a **Console-based** version and a fully functional **GUI version using Swing**.
+This project is a Hotel Management System developed in Java, featuring both a
+Console-based version and a fully functional GUI version using Swing.
 
 It allows hotel administrators to:
 - Manage room bookings
@@ -10,11 +11,11 @@ It allows hotel administrators to:
 - View all bookings in a formatted way
 - Reset room availability
 
----
+--------------------------------------------------
 
-## 🔧 Features
+FEATURES
 
-### ✅ Console Version
+Console Version:
 - Book a room by entering customer name, room number, and nights
 - Show available rooms with price and type
 - Cancel an existing booking
@@ -23,54 +24,59 @@ It allows hotel administrators to:
 - Simple command-line based interaction
 - Ideal for terminal-based systems
 
-### 🖥️ GUI Version (Java Swing)
-- Beautifully designed Java Swing interface
+GUI Version (Java Swing):
+- Java Swing based graphical interface
 - Horizontal layout buttons for better UX
 - Dynamic room booking form
 - Booking cancellation form
 - View all bookings in a scrollable window
 - Show room status with availability
-- Persistent storage of bookings via `bookings.csv`
+- Persistent storage using bookings.csv
 - Automatic file loading and saving
-- Real-time updates to room availability and booking data
+- Real-time room availability updates
 
----
+--------------------------------------------------
 
-## 📁 Project Structure
+PROJECT STRUCTURE
 
 HotelManagementSystem/
-├── Booking.java # Booking class (customer name, room, nights, total)
-├── Room.java # Room class (room number, type, price, availability)
-├── HotelConsole.java # Console version of the system
-├── HotelGUI.java # GUI version (main application)
-├── bookings.csv # Saved bookings data (auto-generated)
-└── README.md # You're reading it!
+├── Booking.java        - Booking class (customer name, room, nights, total)
+├── Room.java           - Room class (room number, type, price, availability)
+├── HotelConsole.java   - Console version of the system
+├── HotelGUI.java       - GUI version (main application)
+├── bookings.csv        - Saved bookings data (auto-generated)
+└── README.md           - This file
 
+--------------------------------------------------
 
----
-
-## 💡 Technologies Used
+TECHNOLOGIES USED
 
 - Java (JDK 17+)
-- Java Swing (GUI)
-- File I/O (CSV for persistence)
+- Java Swing
+- File I/O (CSV)
+- Object Oriented Programming
 - IntelliJ IDEA / VS Code / Any Java IDE
-- OOP principles
 
----
+--------------------------------------------------
 
-## 🚀 Getting Started
+GETTING STARTED
 
-### 🛠 Requirements
-- Java installed (`java -version`)
+Requirements:
+- Java installed (check using: java -version)
 - Any Java IDE or terminal
 
-### ▶️ Run the GUI Version
-```bash
-Run HotelGUI.java in your IDE
+Run GUI Version:
+javac HotelGUI.java
+java HotelGUI
 
-▶️ Run the Console Version
+Run Console Version:
+javac HotelConsole.java
+java HotelConsole
 
-Run main.java in your IDE or terminal
+--------------------------------------------------
 
+NOTES
 
+- bookings.csv is auto-generated on first booking
+- Data persists between runs
+- Both versions share core logic
