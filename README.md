@@ -37,16 +37,17 @@ GUI Version (Java Swing):
 
 --------------------------------------------------
 
-PROJECT STRUCTURE
+## 📁 Project Structure
 
+```text
 HotelManagementSystem/
-├── Booking.java        - Booking class (customer name, room, nights, total)
-├── Room.java           - Room class (room number, type, price, availability)
-├── HotelConsole.java   - Console version of the system
-├── HotelGUI.java       - GUI version (main application)
-├── bookings.csv        - Saved bookings data (auto-generated)
-└── README.md           - This file
-
+├── Booking.java        # Booking class (customer name, room, nights, total)
+├── Room.java           # Room class (room number, type, price, availability)
+├── HotelConsole.java   # Console version of the system
+├── HotelGUI.java       # GUI version (main application)
+├── bookings.csv        # Saved bookings data (auto-generated)
+└── README.md             - This file
+```
 --------------------------------------------------
 
 TECHNOLOGIES USED
