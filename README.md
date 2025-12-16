@@ -67,13 +67,15 @@ Requirements:
 - Any Java IDE or terminal
 
 Run GUI Version:
+```
 javac HotelGUI.java
 java HotelGUI
-
+```
 Run Console Version:
+```
 javac HotelConsole.java
 java HotelConsole
-
+```
 --------------------------------------------------
 
 NOTES
