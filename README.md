@@ -58,28 +58,96 @@ TECHNOLOGIES USED
 - Object Oriented Programming
 - IntelliJ IDEA / VS Code / Any Java IDE
 
---------------------------------------------------
+------------------------------------------------------------
 
-GETTING STARTED
+INSTALLATION & SETUP
 
-Requirements:
-- Java installed (check using: java -version)
-- Any Java IDE or terminal
+Step 1: Clone or Download the Project
+```
+git clone https://github.com/Lunatic5565/Hotel-management-System.git
+cd Hotel-management-System
+```
+Alternatively, download the ZIP file from GitHub and extract it.
+
+------------------------------------------------------------
+
+Step 2: Compile the Program
+
+Using Terminal:
+```
+javac Booking.java Room.java HotelConsole.java HotelGUI.java
+```
+Using IDE:
+- Open the project in IntelliJ IDEA or VS Code
+- Configure JDK 17 or above
+- Build the project
+
+------------------------------------------------------------
+
+Step 3: Run the Program
 
 Run GUI Version:
 ```
-javac HotelGUI.java
 java HotelGUI
 ```
 Run Console Version:
 ```
-javac HotelConsole.java
 java HotelConsole
 ```
---------------------------------------------------
+------------------------------------------------------------
 
-NOTES
+DATA STORAGE
 
-- bookings.csv is auto-generated on first booking
-- Data persists between runs
-- Both versions share core logic
+- bookings.csv is created automatically on the first booking
+- Booking data is saved and loaded between program runs
+- No external database is required
+
+------------------------------------------------------------
+
+🔮 FUTURE ENHANCEMENTS
+
+- Integration with a database (MySQL / PostgreSQL)
+- User authentication and admin roles
+- Online booking functionality
+- Payment and billing module
+- Improved UI using JavaFX
+- Booking reports and analytics
+
+------------------------------------------------------------
+
+🤝 CONTRIBUTING
+
+Contributions are welcome!
+
+If you would like to improve this project:
+- Fork the repository
+- Create a new feature branch  
+  (```git checkout -b feature/YourFeatureName```)
+- Commit your changes  
+  (```git commit -m "Add new feature"```)
+- Push the branch  
+  (```git push origin feature/YourFeatureName```)
+- Open a Pull Request
+
+------------------------------------------------------------
+
+📝 LICENSE
+
+This project is created as a mini project for educational purposes.
+You are free to use, modify, and share this project for learning
+and academic use.
+
+------------------------------------------------------------
+
+👨‍💻 AUTHOR
+
+Jitesh Bagale  
+GitHub: https://github.com/Lunatic5565
+
+------------------------------------------------------------
+
+🙏 ACKNOWLEDGMENTS
+
+- Thanks to all contributors and supporters
+- Inspired by real-world hotel management systems
+- Built as a learning project to strengthen Java OOP concepts
