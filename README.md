@@ -13,7 +13,7 @@ It allows hotel administrators to:
 
 --------------------------------------------------
 
-FEATURES
+# FEATURES
 
 Console Version:
 - Book a room by entering customer name, room number, and nights
